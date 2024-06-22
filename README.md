@@ -24,20 +24,18 @@ Our objective in this repo is to solve the semantic segmentation task and genera
 • You can access the dataset using the following link https://rdr.ucl.ac.uk/projects/SAR-RARP50_Segmentation_of_surgical_instrumentation_and_Action_Recognition_on_Robot-Assisted_Radical_Prostatectomy_Challenge/191091
 
 # Project Structure
-This project was prepared to run on Colab
+This project was designed for execution on Colab. Here are the steps involved:
 
-1- The frames extraction are done using "ExtractFrames.ipynb" notebook
+1- Frames are extracted using the "ExtractFrames.ipynb" notebook.
 
-2- The frames renaming are done using "rename_frames.ipynb" notebook
+2- Frames are renamed using the "rename_frames.ipynb" notebook.
 
-3- Several deep models are used for the segmentation task, including UNet, FPN, LinkNet and Unet with ResNet backbone
-The notebooks are 
+3- Several deep learning models are employed for the segmentation task, including UNet, FPN, LinkNet, and UNet with a ResNet backbone. The corresponding notebooks are:
 unet.ipynb and semantic_segmentation.ipynb
 FPN_ResNet_semantic_segmentation.ipynb
 LinkNet_ResNet_semantic_segmentation.ipynb
 Unet_ResNet_semantic_segmentation.ipynb
-
-all of them are evaluated using Dice_metric and UpdatedMeanIoU.ipynb
+Evaluation for all models is conducted using the Dice metric and UpdatedMeanIoU.ipynb.
 
 
 
