@@ -31,10 +31,12 @@ This project was designed for execution on Colab. Here are the steps involved:
 2- Frames are renamed using the "rename_frames.ipynb" notebook.
 
 3- Several deep learning models are employed for the segmentation task, including UNet, FPN, LinkNet, and UNet with a ResNet backbone. The corresponding notebooks are:
-unet.ipynb and semantic_segmentation.ipynb
-FPN_ResNet_semantic_segmentation.ipynb
-LinkNet_ResNet_semantic_segmentation.ipynb
-Unet_ResNet_semantic_segmentation.ipynb
+
+• unet.ipynb and semantic_segmentation.ipynb
+• FPN_ResNet_semantic_segmentation.ipynb
+• LinkNet_ResNet_semantic_segmentation.ipynb
+• Unet_ResNet_semantic_segmentation.ipynb
+
 Evaluation for all models is conducted using the Dice metric and UpdatedMeanIoU.ipynb.
 
 
